@@ -1,1 +1,0 @@
-/home/thinh/my_workspace/moveit_course_ws/build/my_robot_description/ament_cmake_environment_hooks/local_setup.bash
