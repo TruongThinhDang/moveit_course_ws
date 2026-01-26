@@ -1,0 +1,40 @@
+[2.010s] Invoking command in '/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build
+[2.664s] running develop
+[3.070s] Removing /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my-robot-commander-py.egg-link (link to .)
+[3.129s] Invoked command in '/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build
+[3.132s] Invoking command in '/home/roboai/my_workspace/moveit_ws/src/my_robot_commander_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_commander_py build --build-base /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build install --record /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/install.log --single-version-externally-managed install_data --force
+[3.614s] running egg_info
+[3.651s] writing ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/PKG-INFO
+[3.652s] writing dependency_links to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/dependency_links.txt
+[3.652s] writing entry points to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/entry_points.txt
+[3.652s] writing requirements to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/requires.txt
+[3.653s] writing top-level names to ../../build/my_robot_commander_py/my_robot_commander_py.egg-info/top_level.txt
+[3.719s] reading manifest file '../../build/my_robot_commander_py/my_robot_commander_py.egg-info/SOURCES.txt'
+[3.721s] writing manifest file '../../build/my_robot_commander_py/my_robot_commander_py.egg-info/SOURCES.txt'
+[3.722s] running build
+[3.722s] running build_py
+[3.722s] creating /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build
+[3.722s] creating /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib
+[3.722s] creating /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py
+[3.722s] copying my_robot_commander_py/test_moveit.py -> /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py
+[3.722s] copying my_robot_commander_py/__init__.py -> /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py
+[3.723s] copying my_robot_commander_py/commander_template.py -> /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py
+[3.723s] running install
+[3.733s] running install_lib
+[3.769s] creating /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py
+[3.769s] copying /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py/test_moveit.py -> /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py
+[3.769s] copying /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py/__init__.py -> /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py
+[3.769s] copying /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build/lib/my_robot_commander_py/commander_template.py -> /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py
+[3.770s] byte-compiling /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py/test_moveit.py to test_moveit.cpython-312.pyc
+[3.771s] byte-compiling /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py/__init__.py to __init__.cpython-312.pyc
+[3.771s] byte-compiling /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py/commander_template.py to commander_template.cpython-312.pyc
+[3.773s] running install_data
+[3.773s] copying resource/my_robot_commander_py -> /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/share/ament_index/resource_index/packages
+[3.773s] copying package.xml -> /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/share/my_robot_commander_py
+[3.773s] running install_egg_info
+[3.811s] Copying ../../build/my_robot_commander_py/my_robot_commander_py.egg-info to /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages/my_robot_commander_py-0.0.0-py3.12.egg-info
+[3.812s] running install_scripts
+[4.046s] Installing commander script to /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/my_robot_commander_py
+[4.046s] Installing test_moveit script to /home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/my_robot_commander_py
+[4.046s] writing list of installed files to '/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/install.log'
+[4.088s] Invoked command in '/home/roboai/my_workspace/moveit_ws/src/my_robot_commander_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboai/my_workspace/moveit_ws/install/my_robot_commander_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_commander_py build --build-base /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/build install --record /home/roboai/my_workspace/moveit_ws/build/my_robot_commander_py/install.log --single-version-externally-managed install_data --force

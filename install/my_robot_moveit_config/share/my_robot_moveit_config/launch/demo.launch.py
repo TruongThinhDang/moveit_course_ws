@@ -1,0 +1,1 @@
+/home/roboai/my_workspace/moveit_ws/src/my_robot_moveit_config/launch/demo.launch.py

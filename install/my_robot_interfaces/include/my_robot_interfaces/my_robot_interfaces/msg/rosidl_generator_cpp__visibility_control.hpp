@@ -1,0 +1,1 @@
+/home/roboai/my_workspace/moveit_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp

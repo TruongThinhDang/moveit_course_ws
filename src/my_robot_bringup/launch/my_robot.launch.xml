@@ -3,15 +3,17 @@
          value="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf.xacro"/>
     <let name="rviz_config_path"
          value="$(find-pkg-share my_robot_description)/rviz/urdf_config.rviz"/>
-         
+
+    <arg name="use_mock_component" default="true" />
+
     <node pkg="robot_state_publisher" exec="robot_state_publisher">
         <param name="robot_description"
-               value="$(command 'xacro $(var urdf_path)')" />
+               value="$(command 'xacro $(var urdf_path) use_mock_component:=$(var use_mock_component)')" />
     </node>
 
     <node pkg="controller_manager" exec="ros2_control_node">
-        <param name="robot_description"
-               value="$(command 'xacro $(var urdf_path)')" />
+        <!-- <param name="robot_description"
+                value="$(command 'xacro $(var urdf_path)')" /> --> <!-- For ROS2 Humble only -->
         <param from="$(find-pkg-share my_robot_bringup)/config/ros2_controllers.yaml" />
     </node>
 

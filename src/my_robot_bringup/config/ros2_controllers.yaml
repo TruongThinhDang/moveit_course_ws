@@ -1,7 +1,7 @@
 # This config file is used by ros2_control
 controller_manager:
   ros__parameters:
-    update_rate: 100  # Hz
+    update_rate: 20  # Hz
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -27,7 +27,7 @@ arm_controller:
       - position
     state_interfaces:
       - position
-      
+    allow_nonzero_velocity_at_trajectory_end: true
 gripper_controller:
   ros__parameters:
     joints:
@@ -36,3 +36,4 @@ gripper_controller:
       - position
     state_interfaces:
       - position
+    allow_nonzero_velocity_at_trajectory_end: true

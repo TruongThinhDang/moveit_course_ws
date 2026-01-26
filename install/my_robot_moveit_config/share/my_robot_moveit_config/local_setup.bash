@@ -1,0 +1,1 @@
+/home/roboai/my_workspace/moveit_ws/build/my_robot_moveit_config/ament_cmake_environment_hooks/local_setup.bash

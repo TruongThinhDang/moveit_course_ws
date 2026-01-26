@@ -1,0 +1,1 @@
+/home/roboai/my_workspace/moveit_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/pose_command__rosidl_typesupport_fastrtps_c.h

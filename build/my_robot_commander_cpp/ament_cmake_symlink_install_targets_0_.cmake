@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_cpp/test_moveit" "/home/roboai/my_workspace/moveit_ws/build/my_robot_commander_cpp/commander" "TARGETS" "test_moveit" "commander" "DESTINATION" "lib/my_robot_commander_cpp/")
